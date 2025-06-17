@@ -10,6 +10,18 @@ mkdir -p src/{config,domain,application,infrastructure,interfaces,middlewares,ro
 && echo -e "node_modules\ndist\n.env" > .gitignore
 
 
+# For your Node.js + TypeScript, SOLID-principled backend, Zod is the ideal fit — you'll get:
+
+Cleaner validation
+
+Built-in types
+
+Better type-safety
+
+Easier maintenance
+
+npm install zod
+
 
 my-backend/
 ├── src/
