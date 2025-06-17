@@ -1,44 +1,49 @@
-# typescrip-node-js-expres-js-starter
+# typescript-node-js-express-js-starter
 
-# manual scaffold base structure (bash script)
-mkdir -p src/{config,domain,application,infrastructure,interfaces,middlewares,routes,utils,types} \
-&& touch src/{server.ts,container.ts} \
-&& npm init -y \
-&& npm install express dotenv \
-&& npm install -D typescript ts-node-dev @types/node @types/express eslint prettier \
-&& npx tsc --init \
-&& echo -e "node_modules\ndist\n.env" > .gitignore
+## Validation
 
+For your Node.js + TypeScript, SOLID-principled backend, Zod is the ideal fit — you'll get:
 
-# For your Node.js + TypeScript, SOLID-principled backend, Zod is the ideal fit — you'll get:
+* Cleaner validation
+* Built-in types
+* Better type-safety
+* Easier maintenance
 
- Cleaner validation
-
- Built-in types
-
- Better type-safety
-
-Easier maintenance
-
+```bash
 npm install zod
+```
 
+## Project Structure
 
+```
 my-backend/
 ├── src/
-│   ├── config/               # Environment config, database config
+│   ├── config/               # Environment config, database config per tenant
 │   ├── domain/               # Core business logic (Entities, Interfaces, Value Objects)
-│   ├── application/          # Use-cases / Services / Interactors
-│   ├── infrastructure/       # Database, external APIs, adapters (e.g., Redis, Kafka, PostgreSQL)
-│   ├── interfaces/           # HTTP controllers, GraphQL resolvers, CLI handlers
-│   ├── middlewares/          # Express/Koa middleware (auth, logging, error handling)
-│   ├── routes/               # API route definitions (express.Router)
-│   ├── utils/                # Reusable utility functions (e.g., validators, date helpers)
-│   ├── types/                # Global TypeScript types and interfaces
-│   ├── server.ts             # Main entry point
-│   └── container.ts          # IoC Container (if using dependency injection)
-├── .env                      # Environment variables
-├── Dockerfile                # Optimized Dockerfile
-├── docker-compose.yml        # Services orchestration (e.g., app + db)
-├── tsconfig.json             # TypeScript configuration
-├── package.json              # Project metadata and scripts
+│   ├── application/          # Use-cases / Services / Interactors — orchestrates domain logic
+│   ├── infrastructure/       # Database, APIs, message queues — implements domain interfaces
+│   ├── interfaces/           # HTTP controllers, CLI handlers — interface adapters
+│   ├── middlewares/          # Express middleware (auth, errorHandler, logger, etc.)
+│   ├── routes/               # API route definitions using express.Router
+│   ├── utils/                # Reusable helpers (e.g., validators, date utils)
+│   ├── types/                # Global TS types/interfaces (DTOs, tenant types)
+│   ├── server.ts             # Application bootstrapper (Express app)
+│   └── container.ts          # IoC Container or dependency wiring
+├── .env                      # Env config (PORT, DB, etc.)
+├── tsconfig.json             # TypeScript config
+├── package.json              # Project metadata & scripts
 └── README.md
+```
+
+## Layered Architecture Summary (Clean Architecture)
+
+* **domain/**: Business logic, models, and contracts — no framework code
+* **application/**: Application-specific workflows (e.g. check-in, bookings)
+* **infrastructure/**: MySQL, Redis, API clients, email/SMS adapters
+* **interfaces/**: Express controllers — entry points for HTTP/CLI/GraphQL
+* **middlewares/**: Auth, error handling, logging — Express middlewares
+* **routes/**: Route definitions and binding controllers to routes
+* **utils/**: Generic reusable utility functions
+* **types/**: Shared type declarations across layers
+
+> 🧠 **Controllers live in `interfaces/`**, not `application/`, because they are tied to the framework (Express). `application/` is pure and reusable across different delivery mechanisms (CLI, workers, HTTP, etc.).
