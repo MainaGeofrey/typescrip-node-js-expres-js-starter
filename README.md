@@ -12,9 +12,9 @@ mkdir -p src/{config,domain,application,infrastructure,interfaces,middlewares,ro
 
 # For your Node.js + TypeScript, SOLID-principled backend, Zod is the ideal fit — you'll get:
 
-Cleaner validation
+ Cleaner validation
 
-Built-in types
+ Built-in types
 
 Better type-safety
 
