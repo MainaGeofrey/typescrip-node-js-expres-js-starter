@@ -16,7 +16,7 @@ mkdir -p src/{config,domain,application,infrastructure,interfaces,middlewares,ro
 
  Built-in types
 
-Better type-safety
+ Better type-safety
 
 Easier maintenance
 
