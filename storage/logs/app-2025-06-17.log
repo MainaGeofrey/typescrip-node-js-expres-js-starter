@@ -1,0 +1,25 @@
+{"level":"info","message":"🚀 Server running on http://localhost:5001","metadata":{"environment":"development","module":"USMNS","port":"5001","service":"APPLICATION","timestamp":"2025-06-17 17:37:35.521"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5001","metadata":{"environment":"development","module":"USMNS","port":"5001","service":"APPLICATION","timestamp":"2025-06-17 17:41:28.418"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 17:42:09.576"}}
+{"level":"info","message":"Health check route hit","metadata":{"module":"USMNS","service":"APPLICATION","timestamp":"2025-06-17 17:42:13.714"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:16:39.165"}}
+{"level":"info","message":"Health check route hit","metadata":{"module":"USMNS","service":"APPLICATION","timestamp":"2025-06-17 18:16:44.277"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:17:42.251"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:17:54.631"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:18:04.310"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:18:07.678"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:18:10.937"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:18:15.802"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:18:18.860"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:18:46.046"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:19:03.361"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"USMNS","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:19:12.331"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:21:14.141"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:21:23.809"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:22:01.963"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:22:02.989"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:22:18.980"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:22:20.751"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:22:24.174"}}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","metadata":{"environment":"development","module":"NOTIFICATIONS_SERVICE","port":"5000","service":"APPLICATION","timestamp":"2025-06-17 18:23:22.350"}}
+{"level":"info","message":"Shutting down server...","metadata":{"module":"NOTIFICATIONS_SERVICE","service":"APPLICATION","timestamp":"2025-06-17 18:23:26.546"}}

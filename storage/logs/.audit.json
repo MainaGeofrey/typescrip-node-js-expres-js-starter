@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 90
+    },
+    "auditLog": "D:\\ELIGE\\swara\\NOTIFY_SER\\storage\\logs\\.audit.json",
+    "files": [
+        {
+            "date": 1750171055502,
+            "name": "D:\\ELIGE\\swara\\NOTIFY_SER\\storage\\logs\\app-2025-06-17.log",
+            "hash": "aba7c6b6107c8ceb17b11911a26604852404e628fef2a67b4d8ab46e2d34e307"
+        },
+        {
+            "date": 1750171055506,
+            "name": "D:\\ELIGE\\swara\\NOTIFY_SER\\storage\\logs\\error-2025-06-17.log",
+            "hash": "2066e2d147fb8135600a52c4129a7afb57880bf66db071a3eee16c377db6e220"
+        }
+    ],
+    "hashType": "sha256"
+}
